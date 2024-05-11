@@ -1,0 +1,48 @@
+# # # # # # # # # # # # # # # # # # # # # # # # #
+#
+#         Thank you for use our plugin.
+#            (dsc.gg/mdcommunity)
+#
+#     Please rate plugin and say your ideas to
+#             this plugin or for new.
+#
+#    (If you notice a flaw, please report it to the
+#           discord community or in the forum)
+#
+#  Depends:
+#  - NBTAPI (https://www.spigotmc.org/resources/nbt-api.7939/)
+#
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+# Items which can drop spawner.
+# https://helpch.at/docs/1.16.5/org/bukkit/Material.html
+allowed-items:
+  #- '*'
+  - 'DIAMOND_PICKAXE'
+
+# Which chance to drop spawner.
+chance: 100
+
+# Spawner item.
+item:
+  name: '&fSpawner {mob}'
+  lore: []
+
+# You can add more mobs.
+# https://helpch.at/docs/1.16.5/org/bukkit/entity/EntityType.html
+translate:
+  ZOMBIE: 'Zombie'
+  SKELETON: 'Skeleton'
+  PIG: 'Pig'
+  COW: 'Cow'
+  CAT: 'Cat'
+  CREEPER: 'Creeper'
+  SHEEP: 'Sheep'
+  CHICKEN: 'Chicken'
+  RABBIT: 'Rabbit'
+  VILLAGER: 'Villager'
+  BLAZE: 'Blaze'
+  CAVE_SPIDER: 'Cave Spider'
+  SPIDER: 'Spider'
+  EVOKER: 'Evoker'
+  GHAST: 'Ghast'

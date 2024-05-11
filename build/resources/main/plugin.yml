@@ -1,0 +1,7 @@
+name: LootableSpawner
+version: '1.0'
+main: pl.bkkuc.lootablespawner.Plugin
+api-version: '1.16'
+
+depend:
+  - NBTAPI
